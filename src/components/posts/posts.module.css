@@ -1,0 +1,27 @@
+.block h1 {
+    font-size: 35px;
+  }
+
+  .block h2 {
+    font-size: 20px;
+    color: #8F969D;
+    text-align: center;
+  }
+
+.item {
+  margin-top: 30px;
+  display: grid;
+  grid-template-areas: 
+  "h n";
+  grid-template-columns: 6fr 6fr;
+} 
+  
+.filter {
+  text-align: center;
+  grid-area: h;
+}
+
+.post {
+  grid-area: n;
+  text-align: center;
+}

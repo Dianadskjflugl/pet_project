@@ -1,0 +1,28 @@
+.login {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;    
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #3E4443;
+    background-color: #3E4449;
+    width: 60%;
+}
+
+.login h1 {
+    font-size: 35px;
+    color: #8F969D;
+    font-weight: 400;
+}
+
+.block {
+    padding: 20px;
+    text-align: center;
+}
+
+.input {
+    margin-top: 10px;
+}
+
+.button {
+    margin-bottom: 30px;
+}

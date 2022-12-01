@@ -1,0 +1,15 @@
+.MyBtn{
+	padding: 5px 15px;
+	color: #24303B;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 8px;
+	margin-top: 5px;
+	box-shadow: 2x 2x 5px #373B3F;
+    background-color: #8B949D;
+	border: solid 1px #3E4449;
+}
+
+.MyBtn_Active {
+	background-color: #9ca1a6;
+}

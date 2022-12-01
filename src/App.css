@@ -1,0 +1,46 @@
+#root{
+  display: flex;
+  justify-content: center;
+  background-color: #3E4449;
+}
+
+.app-wraper{
+  width: 80%;
+  min-height: 800px;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+}
+
+p {
+  color: #B2ABA2;
+}
+
+h1, h2, h3, h4, h5 {
+  color:#B2ABA2;
+}
+
+h1 {
+  text-align: center;
+}
+
+.app-wraper-content{
+  background-color: #373B3F;  
+}
+
+.item-enter {
+  opacity: 0;
+}
+
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.item-exit {
+  opacity: 1;
+}
+
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}

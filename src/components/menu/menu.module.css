@@ -1,0 +1,16 @@
+header {
+  background-color: #24303B;
+}
+
+header img {
+  width: 60px;
+  margin-top: 8px;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 30px;
+  text-decoration: underline #24303B;
+}

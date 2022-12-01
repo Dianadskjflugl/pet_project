@@ -1,0 +1,23 @@
+.block {
+    margin: 20px;
+}
+
+.block h1 {
+    font-size: 30px;
+}
+
+.block h5 {
+    color: #8F969D;
+}
+
+.comment {
+    width: 85%;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid 1px #8F969D;
+    border-radius: 10px;
+}
+
+.button {
+    margin: 20px;
+}
