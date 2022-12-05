@@ -20,8 +20,8 @@ const PostItem = (props) => {
                     <div><p>{props.post.body}</p></div>
                 </div>
                 <div className={classes.button}>
-                    <MyButton onClick={removePost}>удалить</MyButton>
                     <MyButton onClick={goPost}>перейти</MyButton>
+                    <MyButton onClick={removePost}>&times;</MyButton>
                 </div>
             </div>
         </div>

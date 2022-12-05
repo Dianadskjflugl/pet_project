@@ -6,7 +6,7 @@
 
 .app-wraper{
   width: 80%;
-  min-height: 800px;
+  min-height: 500px;
   display: grid;
   grid-template-rows: 60px 1fr;
 }
@@ -44,3 +44,11 @@ h1 {
   opacity: 0;
   transition: opacity 500ms ease-in;
 }
+
+@media (max-width: 768px) {
+  .app-wraper{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+  }
+} 

@@ -25,3 +25,13 @@
   grid-area: n;
   text-align: center;
 }
+
+@media (max-width: 481px) {
+  .item {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .block h1 {
+    font-size: 20px;
+  }
+} 

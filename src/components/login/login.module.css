@@ -26,3 +26,27 @@
 .button {
     margin-bottom: 30px;
 }
+
+@media (max-width: 641px) {
+    .login {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;    
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px #3E4443;
+        background-color: #3E4449;
+        width: 80%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .login {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;    
+        border-radius: 20px;
+        box-shadow: 2px 2px 5px #3E4443;
+        background-color: #3E4449;
+        width: 90%;
+    } 
+  } 

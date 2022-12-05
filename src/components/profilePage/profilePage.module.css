@@ -21,3 +21,9 @@
 .button {
     margin: 20px;
 }
+
+@media (max-width: 641px) {
+    .block h1 {
+        font-size: 20px;
+    }
+  }
